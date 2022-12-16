@@ -1,0 +1,508 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+
+body{font-weight:normal}
+.header-main .nav > li.active > a, .header-main .nav > li a:hover{color:#61A63C}
+.header-main .nav > li > a{color:black; font-size:17px}
+.header-cart-icon{margin-left: 3px !important;}
+.section-title-center span{    text-transform: none;font-weight:500;
+	color: #61a63c; font-size:29px}.section-title-container {
+		margin-bottom: 4px;
+}
+.gioi-thieu-section .mb {
+	margin-bottom: 0px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px #2b2b2b;
+}
+.nut-xem-them{border: 1px solid #8ec74a !important;
+	font-weight: normal;
+	font-size: 14px !important; padding-top:3px; padding-bottom:3px}
+.section-title-center span:after{    content: "";
+	display: table;
+	clear: both;
+	background: url(../../uploads/2019/05/title-divide.png);
+	width: 100%;
+	height: 28px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: bottom;
+	padding-top: 30px;}
+.section-title b{background:none}
+.gioi-thieu-section .col, .hinh-anh-section .col.large-12{padding-bottom:0}
+.list-product .box-text .product-title{font-family: "roboto condensed", sans-serif;
+	font-size: 18px;
+	color: #3c3c3c;}
+.list-product .box-text, .related .product-small .box-text, .archive .product-small .box-text{    background: #f1f8f3;
+	border-radius: 10px;}
+.list-product .price, .related .product-small .price, .archive .product-small .price{margin-top:15px}
+
+.badge-container .badge{height: 30px;
+	width: 50px;}
+.related h3{    margin: 0;
+	letter-spacing: 0;
+	text-transform: none;
+	font-size: 24px;
+	font-weight: normal;
+	color: #61a63c;}
+.breadcrumbs {
+	color: #90c74d;
+	font-weight: normal;
+}
+.archive .col.product-small{    padding: 0 30px 30px;}
+.badge-container .badge-inner{    padding: 0px 15px;
+	font-weight: normal;
+	border-radius: 6px;
+	font-size: 14px;}
+
+.badge-container{margin:20px}
+.list-product .product-small .add-to-cart-button a, .related .product-small .add-to-cart-button a, .archive .product-small .add-to-cart-button a{background-image: url(../../uploads/2019/05/icon-cart-2.png);
+	font-weight: normal;
+	padding: 2px 15px;
+	border-radius: 25px;
+	background-repeat: no-repeat;
+	background-size: 22px;
+	background-position-x: 13px;
+	padding-left: 40px;
+	background-position-y: 3px;}
+.list-product .product-small .price span.amount, .related .product-small .price span.amount, .archive .product-small .price span.amount{    font-size: 20px;
+	margin-top: 10px;
+	font-weight: 500;}
+.list-product .col{padding: 0 23px 23px !important}
+.hinh-anh-section .tabbed-content li a{    padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 4px;
+	border: 2px solid #ece9de;
+	transform: skew(15deg);
+	background: white;}
+.hinh-anh-section .tabbed-content li a span{transform: skew(-15deg);}
+.hinh-anh-section .tabbed-content li a:hover{color:#61a63c}
+.hinh-anh-section .tabbed-content li.active a{    background: #ffffff;
+	border: 2px solid #61a63c;}
+.san-pham-section .col{padding-bottom:0}
+.tab-panels {
+	padding-top: 30px;
+}
+.album-anh .gallery-col{padding: 0 3.8px 7.6px;}
+.album-anh img{    border-radius: 10px;
+	border: 1px solid #ece9de;
+	padding: 5px;
+	background: white;}
+.star-rating span:before, .secondary.is-underline, .secondary.is-link, .secondary.is-outline, .stars a.active, .star-rating:before, .woocommerce-page .star-rating:before, .star-rating span:before, .color-secondary{color: #ffbe00 !important;}
+.phan-hoi .col.large-12{padding-bottom:0}
+.phan-hoi .icon-box .icon-box-text p span{    font-size: 95%;
+	color: #dfefda !important;}
+.phan-hoi .icon-box .icon-box-text p{margin-bottom: 5px;}
+.phan-hoi .icon-box .icon-box-img img{border-radius: 56px;
+	border: 2px solid #a8ce73;}
+.phan-hoi .icon-box .icon-box-text{  margin-left:15px;  background: #447934a3;
+	padding: 20px;
+	border-radius: 10px;}
+.box-blog-post .is-divider{display:none}
+.list-post .box-image .image-cover{    border-radius: 5px;
+	border-bottom: 3px solid #61a63c;}
+.list-post .post-item .post-title:hover{color: #ff8f00}
+.list-post .post-item .post-title{font-size: 19px;
+	font-weight: normal;
+	margin-bottom: 10px;}
+.footer-section .dia-chi-email{background: url(../../uploads/2019/05/icon-1.png);
+	background-repeat: no-repeat;
+	background-size: 18px;
+	background-position-y: center;
+	padding-left: 23px;
+	margin-bottom: 5px;}
+.footer-section .hotline{    background: url(../../uploads/2019/05/phone-icon-1.png);
+	background-repeat: no-repeat;
+	background-size: 17px;
+	background-position-y: center;
+	padding-left: 23px;
+	margin-bottom: 5px;}
+.footer-section .dia-chi{background: url(../../uploads/2019/05/map-icon.png);
+	background-repeat: no-repeat;
+	background-position-y: 6px;
+	padding-left: 23px;
+	background-size: 18px;
+	margin-bottom: 5px;}
+.footer-section h4{text-transform: uppercase;
+	color: #ffffff;
+	font-weight: normal;
+	margin-bottom: 30px;
+	display: block;
+	font-size: 19px;}
+.footer-section ul li{    list-style: none;
+	margin-bottom: 20px;
+	background-image: url(../../uploads/2019/05/arrow.png);
+	background-repeat: no-repeat;
+	background-size: 5px;
+	background-position-y: center;
+	margin-left: 0;
+	padding-left: 11px;}
+.footer-section .col{padding-bottom:0}
+.footer-section .cot1{flex-basis:30%; max-width:30%}
+.footer-section .cot2{flex-basis:22.333%; max-width:22.333%}
+.footer-secondary {
+	padding: 0;
+}
+.mua-hang .col{padding-bottom:0}
+a.back-to-top{    background: #61a63c !important;
+	border: none !important;
+	color: white;}
+.anh-cong-ty img{border-radius:15px}
+div.wpcf7-mail-sent-ok {
+	border: 2px solid #61a63c;
+	background: #61a63c;
+	color: white;
+}
+.single-product .product-short-description p{margin-bottom:10px}.product-footer .woocommerce-tabs {
+	padding: 0;
+	border-top: 0;
+}
+.product-footer b, .product-footer strong{font-weight:500}
+.product-footer .woocommerce-tabs .tabs li a{    padding-left: 15px;font-size: 16px;
+	text-transform: none;
+	color: #4e4e4e;
+	padding-right: 15px;
+	background: #ececec;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top: 3px solid #d8d8d8;}
+.product-footer .woocommerce-tabs li.active a{background: #61a63c;
+	color: white;
+	border-top: 3px solid #90c648;}
+.product-footer .woocommerce-tabs li{margin:0; margin-right:3px}
+.single-product .cart{margin-bottom:10px}
+.nav-dropdown li a{    border-bottom: 1px solid #f1f1f1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #424242;}
+.nav-dropdown.nav-dropdown-simple li.html{padding:0 10px 10px}
+.blog-single .large-9, .blog-archive .large-9, .page-right-sidebar .large-9{border-right:0 !important}
+.widget .is-divider{    margin-top: 8px;    height: 1px;
+
+	background-color: rgb(97, 166, 60);
+	margin: 0;
+	width: 100%;
+	max-width: 100%;}
+.widget ul {border-radius:4px;
+	margin: 0;
+	border: 1px solid #e5e5e5;
+	padding: 10px;
+}
+.archive-page-header .large-12{padding-bottom:10px}
+#breadcrumbs{text-align:left; margin-bottom: 10px;
+	font-size: 14px;
+	padding: 0;}
+.blog-single .thong-tin-them{font-size: 14px;
+	display: block;
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 10px;}
+#ftwp-container.ftwp-wrap #ftwp-contents {
+	border: 1px solid #61a63c;
+	border-radius: 5px;
+}
+#ftwp-container.ftwp-wrap #ftwp-header-title {
+	font-weight: normal;
+	color: #61a63c;
+}
+#ftwp-container #ftwp-list.ftwp-list-nest.ftwp-colexp-icon .ftwp-anchor {
+	padding-left: 10px;
+}
+#ftwp-container.ftwp-wrap #ftwp-list .ftwp-anchor:hover {
+	color: #61a63c;
+}
+#ftwp-container.ftwp-wrap #ftwp-list .ftwp-text::before {
+	background: rgb(97, 166, 60);
+}
+#ftwp-container.ftwp-wrap #ftwp-trigger {
+	border-color: rgb(97, 166, 60);
+}
+#ftwp-container #ftwp-list.ftwp-strong-first>.ftwp-item>.ftwp-anchor .ftwp-text{font-weight:normal}
+
+#ftwp-container.ftwp-wrap .ftwp-icon-number::before{color: #61a63c;}
+#ftwp-container #ftwp-list.ftwp-list-nest.ftwp-colexp .ftwp-icon-expand, #ftwp-container #ftwp-list.ftwp-list-nest.ftwp-colexp .ftwp-has-sub .ftwp-has-sub>.ftwp-icon-collapse{display:none}
+.wpp-thumbnail{border-radius:99%; margin-right:10px}
+
+.blog-single .entry-title{margin-bottom:7px;    font-weight: bold;
+	color: #61a63c;font-size: 30px;}
+.wpp-list li a{flex-basis:18% !important; max-width:18%}
+.wpp-list li a.wpp-post-title{    padding-left: 15px !important;
+	flex-basis: 82% !important;
+	max-width: 82%;
+	font-size: 15px;
+	line-height: 19px;
+	padding: 6px; padding-right:0}
+.wpp-list li{display:inline-flex}
+.blog-single .entry-content p{margin-bottom:10px}
+.blog-single h4{font-size:22px; color: #61a63c; font-weight:bold}
+.blog-single h3{font-size:24px;color: #61a63c; font-weight:bold}
+.blog-single .danh-muc, .blog-single .the-tim-kiem{font-size:15px}
+.blog-single .blog-share{text-align:left !important}
+.meta-related{display:block;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.meta-related ul li {
+	list-style: square;
+	font-size: 15px;
+	margin-bottom:5px;
+}
+.bai-viet-lien-quan{margin-top:20px}
+.meta-related ul{background: #f7f7f7;
+	padding: 10px;
+	border-radius: 5px;}
+.meta-related ul li a{
+	color: #ff8f00;
+	text-transform: none; }
+
+.meta-related ul li a:hover{
+	color: #61a63c;
+}
+.bai-viet-lien-quan ul li h3:hover{color:#61a63c}
+.bai-viet-lien-quan ul li h3{    height: 45px;
+	overflow: hidden;    font-size: 17px;
+	font-weight: normal;
+	color: black;
+	margin-top: 7px;
+	line-height: 24px;}
+.bai-viet-lien-quan ul li .box-image img{height: 180px; border-radius:6px;
+	object-fit: cover;
+	object-position: center;}
+.bai-viet-lien-quan ul li{list-style:none; width:33.33%; float:left; padding-left:4px; padding-right:5px}
+.bai-viet-lien-quan ul{margin-bottom:0; display:inline-block; width:100%}
+.thong-tin-tac-gia h4{margin-bottom:4px; font-size:22px; font-weight:normal}
+.blog-archive .taxonomy-description{text-align:left; font-size:15px}
+.blog-archive .archive-page-header .page-title {text-align: left;
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 25px;
+	font-weight: normal;
+	color: #61a63c;}
+.thong-tin-tac-gia{background: #f3ffe9;
+	padding: 15px;
+	border-radius: 5px;
+	display: inline-block;
+	width: 100%;
+	clear: both;
+	border: 1px dashed #61a63c;}
+.thong-tin-tac-gia .left{width:10%; float:left; display:inline-block; }
+.thong-tin-tac-gia .right p{    margin-bottom: 0;
+	font-size: 15px;}
+.thong-tin-tac-gia .right{padding-left:10px; width: 90%; float:right; display:inline-block; text-align:left}
+
+.blog-single h2{font-weight:bold; font-size:26px;color: #61a63c}
+.is-divider{display:none}
+.recent-blog-posts-li .badge .badge-inner{border-radius:99%}
+.recent-blog-posts-li a{font-size:15px;}
+.thu-muc-bv, .ngay-cap-nhat{margin-right: 10px;}
+.entry-header-text {
+	padding: 0;
+}.entry-content {
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+.blog-single .entry-category {display:none}
+.product_list_widget span.amount {
+	white-space: nowrap;
+	color: #61a63c;
+	font-weight: normal;
+}
+.product_list_widget .product-title{font-size:15px}
+span.widget-title{display:block; margin-bottom:10px; font-family: "roboto condensed", sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: 0;
+	color: #61a63c;}
+.blog-single .large-3, .blog-archive .large-3, .page-right-sidebar .large-3{padding-left:0; border-left:0 !important}
+.button.checkout.wc-forward{padding: 3px;
+	background: #3da71a;
+	color: white;
+	text-transform: none;
+	font-weight: normal;
+	border-radius: 5px;}
+.button.wc-forward{background: #8dc84d;
+	padding: 3px;
+	font-weight: normal;
+	color: white;
+	text-transform: none;
+	border-radius: 5px;}
+.widget_shopping_cart_content li a{border-bottom:none !important}
+.widget_shopping_cart_content span.amount {
+	white-space: nowrap;
+	color: #3da71a;
+	font-weight: normal;
+}
+.nav-dropdown {
+	font-size: 95%;
+	box-shadow: 1px 2px 10px #0000001f;
+	border-top: 4px solid #0f9040 !important;
+	border: 0;
+	padding: 0;
+}
+.wp-caption p{text-align:center}
+.product-footer .meta-related ul li{margin-bottom:5px}
+.product-footer .meta-related ul li{margin-left:20px}
+.product-footer .meta-related ul li a:hover{text-decoration:underline}
+.wp-caption .wp-caption-text {
+	padding: 0;
+	font-size: .9em;
+	background: none;
+	font-style: italic;
+	margin-top: -12px;
+}
+.tab-panels .meta-related ul{margin-left:0 !important}
+.tab-panels .entry-content ul{margin-left:20px}
+.product-footer .meta-related ul li a{padding-left:0; background:none; border-top:none; color:green}
+.single-product .tab-panels{    border-top-right-radius: 5px;padding:20px; border: 1px solid #e2e2e2; border-bottom-left-radius:5px; border-bottom-right-radius:5px}
+p b,p strong{font-weight:500}
+.single-product .product_meta{font-size:15px}
+.single-product .single_add_to_cart_button{    font-weight: normal;
+	text-transform: none;
+	letter-spacing: 0;
+	border-radius: 5px;}
+.single-product .product-short-description{margin-bottom:20px;    font-size: 14px;
+	background: whitesmoke;
+	padding: 20px;
+	border-radius: 10px;}
+.single-product .product-info .price span.amount{font-weight: normal;
+	color: red;}
+.single-product h1.entry-title{margin-bottom: 5px;}
+.product-info .breadcrumbs {
+	font-size: 14px;
+	text-transform: none;
+}
+.header-main {
+	box-shadow: 2px 2px 10px #00000026;
+}
+.product-main {
+	padding: 30px 0 0 0;
+}
+.product-gallery-slider img{border: 1px solid #e2e2e2;
+	border-radius: 5px;}
+.absolute-footer.dark{font-size:13px;color: rgba(255, 255, 255, 0.95);}
+.mua-hang .ban-do, iframe{    border-radius: 10px;
+	border: 2px solid #61a63c;}
+.mua-hang .col{padding-bottom:0}
+.form-lien-he{    border-bottom: 5px solid #61a63c; background: #0f9040;
+	padding: 20px;
+	border-radius: 10px;}
+input[type='email'], input[type='search'], input[type='number'], input[type='url'], input[type='tel'], input[type='text'], textarea, select{font-size: 15px;
+	border-radius: 5px;
+	box-shadow: none !important;}
+.wpcf7 label{    font-weight: normal;
+	color: white;}
+.form-lien-he input[type='submit']{margin: 0;
+	font-weight: normal;
+	text-transform: none;
+	border-radius: 5px}
+.blog-archive .large-9 .badge{display:none}
+.blog-archive .post-item:hover .post-title{color:#ff8300}
+.blog-archive .post-item a:hover{color:black}
+.section-feedback .icon-box .icon-box-img img{    border-radius: 60px;
+	height: 109px;
+	object-fit: cover;
+	object-position: center;}
+.section-feedback .flickity-page-dots{bottom:-22px}
+.woocommerce-mini-cart__empty-message{padding-top:8px}
+.section-feedback .col{padding-bottom:0}
+.header-search-form {padding:10px !important}
+.blog-single, .blog-archive, .woocommerce-page .page-wrapper{padding-top:20px !important}
+.shop_table thead th{border-width: 3px;
+	text-transform: none;
+	font-weight: normal;
+	font-family: "roboto condensed", sans-serif;
+	font-size: 19px;
+	letter-spacing: 0;
+	color: black;}
+.product-name{font-weight:normal; font-family:"roboto condensed"; font-size: 19px; text-transform:none; letter-spacing:0; color:black }
+.button-continue-shopping{    text-transform: none;
+	font-weight: normal;
+	border-radius: 4px;}
+.mt-0 {
+	margin-top: 0 !important;
+	text-transform: none;
+	font-weight: normal;
+	border-radius: 5px;
+}
+.form-row label, #payment label{font-weight: normal;
+	color: #3da71a;}
+.product-price span.amount, .product-subtotal span.amount{font-weight:normal; font-size:16px}
+a.devvn_buy_now_style, .devvn-popup-title, .popup-customer-info-group .devvn-order-btn{background: #61A63C !important}
+.page-right-sidebar{padding-top:20px !important}
+.page-wrapper {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.blog-archive .post-item .box-text{padding-right:0}
+.blog-archive .post-item .box-image .image-cover{border-radius:5px}
+.blog-archive .post-item{padding-bottom:10px}
+p.form-row-first{width:100%}
+.blog-archive .post-item .post-title{font-size: 21px;
+
+	font-weight: normal;
+	margin-bottom: 10px;
+	color: #61a63c}
+#toc_container.toc_light_blue {
+	background: #f7f7f7;
+	border-radius: 4px;
+}
+.tab-panels .entry-content p, .blog-single .article-inner p{font-size:18px; margin-bottom:10px}
+#toc_container{border: 1px solid #ececec;}
+.tab-panels .entry-content h2 strong, .tab-panels .entry-content h2{font-size:26px; font-weight:bold !important; color:#61a63c;}
+.tab-panels .entry-content h3 strong, .tab-panels .entry-content h3{font-size:26px; font-weight:bold !important; color:#61a63c;}
+.tab-panels .entry-content h4 strong, .tab-panels .entry-content h4 {font-size:24px; font-weight:bold !important; color:#61a63c;}
+.tab-panels .entry-content h5 strong, .tab-panels .entry-content h5{font-size:22px; font-weight:bold !important; color:#61a63c;}
+@media only screen and (max-width: 48em) {
+
+	.off-canvas .sidebar-menu {
+		padding: 0;
+	}
+	.off-canvas-left.mfp-ready .mfp-content{background:#64a02e;}
+	.off-canvas .nav-vertical>li>a{padding:12px !important; color:white; font-family:"roboto condensed", sans-serif; font-size:18px; font-weight:normal; text-transform:none}
+	.nav-sidebar.nav-vertical>li+li {
+		border-top: 1px solid #5c9628;
+		border-bottom: 2px solid #6ca935;
+	}
+	.off-canvas .sidebar-menu .icon-angle-down:before{color:white}
+	.nav-sidebar.nav-vertical>li ul.children{    padding: 0;   background: #548e1f;}
+	.nav-sidebar.nav-vertical>li ul.children li a{    color: white;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #64a02e;}
+	.li-do .icon-box h3{font-size:18px; font-weight:normal}
+	.list-product .col, .archive .col.product-small {
+		padding: 0 8px 15px !important;
+	}
+	.archive-page-header .large-12{padding-top:20px}
+	.list-product .col:nth-child(2n+2), .archive .col.product-small:nth-child(2n+2), .blog-archive .post-item:nth-child(2n+2){padding-left:7px !important}
+	.list-product .col:nth-child(2n+1), .archive .col.product-small:nth-child(2n+1), .blog-archive .post-item:nth-child(2n+1){padding-right:7px !important}
+	.blog-archive .post-item .post-title{font-size:17px; color:black; margin-bottom:0}
+	.blog-archive .post-item .from_the_blog_excerpt {display:none}
+	.blog-single .large-3, .blog-archive .large-3, .page-right-sidebar .large-3{padding-left:15px}
+	.blog-single .large-9, .blog-archive .large-9, .page-right-sidebar .large-9{padding-top:20px}
+	.thong-tin-tac-gia .right, .thong-tin-tac-gia .left{width:100%; display:block;     text-align: center;}
+	.bai-viet-lien-quan ul li{width:50%}
+	.bai-viet-lien-quan ul li .box-image img{height:115px}
+	.bai-viet-lien-quan ul li h3{font-size:16px}
+	.blog-archive .post-item .box-text{padding-bottom:0}
+	.li-do .icon-box .icon-box-img{    width: 77px !important;}
+	.nav-sidebar.nav-vertical>li ul.children li{padding-left:0}
+	.list-product .box-text .product-title {
+		font-size: 15px;}
+	.hinh-anh-section .tabbed-content li a{margin-bottom:10px}
+	.list-post .post-item, .blog-archive .post-item{flex-basis:50%; max-width:50%}
+	.list-post .post-item .from_the_blog_excerpt {display:none}
+	.list-post .post-item .box-text{padding-bottom:0}
+	.list-post .post-item .post-title{font-size:16px; margin-bottom:0}
+	.footer-section .cot2{display:none}
+	.footer-section .cot1{flex-basis:100%; max-width:100%}
+}
